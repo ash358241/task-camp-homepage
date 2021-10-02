@@ -1,0 +1,25 @@
+.bannerMain{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bannerCompany{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerCompany h4{
+    margin: 10px 50px;
+}
+
+
+@media(max-width:668px){
+    .bannerMain, .bannerCompany{
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
