@@ -18,7 +18,7 @@ const Banner = () => {
                     </div>
                 </div>
                 <div className="bannerMainImage">
-                        <img style={{width:'500px'}} src={banner} alt="" />
+                        <img style={{width:'40vw'}} src={banner} alt="" />
                 </div>
             </div>
 

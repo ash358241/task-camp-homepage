@@ -1,0 +1,27 @@
+.choice{
+    width: 90%;
+    margin: 100px auto;
+}
+
+.choiceContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-spacing: 10px;
+}
+
+.offers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+@media(max-width:668px){
+    .choiceContainer{
+        flex-wrap: wrap;
+    }
+    .offers{
+        flex-wrap: wrap;
+    }
+}

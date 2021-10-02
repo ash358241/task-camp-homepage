@@ -1,0 +1,28 @@
+.customer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center; 
+    grid-gap: 100px;
+}
+
+.advertise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+@media(max-width:668px){
+    .customer{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 20px;
+    }
+    .advertise{
+        flex-wrap: wrap;
+    }
+    .customerImg img{
+        width: 200px;
+    }
+}
