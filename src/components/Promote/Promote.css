@@ -22,9 +22,16 @@
     align-items: center;
 }
 
+.promoteImg img{
+    width: 40vw;
+}
+
 
 @media(max-width: 668px){
     .promote{
         flex-wrap: wrap;
+    }
+    .promoteImg img{
+        width: 100vw;
     }
 }

@@ -6,6 +6,10 @@ import CustomerSupport from '../../components/CustomerSupport/CustomerSupport';
 import Header from '../../components/Header/Header';
 import Promote from '../../components/Promote/Promote';
 import Services from '../../components/Services/Services';
+import InsideNews from '../../components/InsideNews/InsideNews';
+import Contact from '../../components/Contact/Contact';
+import ReachUs from '../../components/ReachUs/ReachUs';
+import Footer from '../../components/Footer/Footer';
 
 const Homwpage = () => {
     return (
@@ -17,6 +21,10 @@ const Homwpage = () => {
             <Promote></Promote>
             <Choice></Choice>
             <Feedback></Feedback>
+            <InsideNews></InsideNews>
+            <Contact></Contact>
+            <ReachUs></ReachUs>
+            <Footer></Footer>
         </div>
     );
 };

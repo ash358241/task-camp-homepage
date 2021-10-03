@@ -1,0 +1,15 @@
+.reachUs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-bottom: 100px;
+   text-align: center;
+}
+
+
+@media(max-width:668px){
+    .reachUs{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}

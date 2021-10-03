@@ -1,0 +1,39 @@
+.footerUp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerDown{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footerContent{
+    background: #F4FAFE;
+    width: 98%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.footerEnd{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.footerDown img{
+    width: 20vw;
+}
+
+
+
+@media(max-width:668px){
+    .footerUp, .footerDown, .footerEnd{
+        flex-wrap: wrap;
+    }
+    .footerDown img{
+        width: 50vw;
+    }
+}

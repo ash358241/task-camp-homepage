@@ -1,0 +1,14 @@
+.insideNews{
+    margin: 100px auto;
+}
+
+.insideCardBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-md-4{
+    padding: 30px;
+    
+}

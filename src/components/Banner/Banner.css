@@ -14,12 +14,19 @@
     margin: 10px 50px;
 }
 
+.bannerMain .bannerMainImage img{
+    width: 40vw;
+}
+
 
 @media(max-width:668px){
     .bannerMain, .bannerCompany{
         flex-wrap: wrap;
         width: 90%;
         margin: 0 auto;
+    }
+    .bannerMain .bannerMainImage img{
+        width: 80vw;
     }
 }
 

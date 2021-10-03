@@ -7,14 +7,14 @@ const CustomerSupport = () => {
         <div className="customerSupport " style={{margin:"100px 0"}}>
             <div className="customer container">
                 <div className="customerImg">
-                    <img style={{width:'40vw'}} src={customer} alt="" />
+                    <img  src={customer} alt="" />
                 </div>
                 <div className="customerContent">
-                    <h1>We've been <br /> helping customer <br /> globally.</h1>
+                    <h1>We've been <br /> helping <span style={{color:'red', borderBottom:"3px solid red"}}>customer</span> <br /> globally.</h1>
                     <br />
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt quo, possimus optio quas necessitatibus cumque saepe ipsa quae! Nam?</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nesciunt quo, possimus optio quas necessitatibus cumque saepe ipsa quae! Nam</p>
                     <br />
-                    <button>More about us</button>
+                    <button style={{background:'transparent', padding:'10px 30px'}}>More about us</button>
                 </div>
             </div>
             <br /><br />

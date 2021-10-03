@@ -7,19 +7,20 @@ const Promote = () => {
     return (
         <div className="promote">
             <div className="thoughts">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum veniam dolor eligendi minus rem enim voluptatem quasi, ipsa voluptas?</p>
+            <i class="fab fa-slack-hash fa-2x text-white bg-black p-3 rounded-circle mb-2"></i>
+                <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum veniam dolor eligendi minus rem enim voluptatem quasi, ipsa voluptas"</p>
                 <div className="developer">
                     <div className="devSpecific">
                         <img style={{width: "50px", height: "50px", borderRadius: "100%"}} src={developer} alt="" />
                         <p className="ms-2">Jannat far, VP technology</p>
                     </div>
                     <div className="icon">
-                        <h5>icons</h5>
+                    <i class="fas fa-long-arrow-alt-left"></i> <i class="fas fa-long-arrow-alt-right"></i>
                     </div>
                 </div>
             </div>
             <div className="promoteImg">
-                <img style={{width:'40vw'}} src={wordpress} alt="" />
+                <img  src={wordpress} alt="" />
             </div>
         </div>
     );

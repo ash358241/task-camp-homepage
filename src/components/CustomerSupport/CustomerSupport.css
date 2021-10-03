@@ -13,6 +13,10 @@
     margin-top: 50px;
 }
 
+.customerImg img{
+    width: 40vw;
+}
+
 
 @media(max-width:668px){
     .customer{
@@ -24,5 +28,8 @@
     }
     .customerImg img{
         width: 200px;
+    }
+    .customerImg img{
+        width: 80vw;
     }
 }
