@@ -1,10 +1,13 @@
 import React from "react";
 import "./Choice.css";
 import img from "../../assests/banner.jpg";
+import Fade from 'react-reveal/Fade';
+
 
 const Choice = () => {
   return (
-    <div className="choice">
+   <Fade bottom>
+      <div className="choice">
       <div className="row w-100 mx-auto hoiceContainer">
         <div className="col-md-6 choiceImg">
           <img  src={img} alt="" />
@@ -47,6 +50,7 @@ const Choice = () => {
           </div>
       </div>
     </div>
+   </Fade>
   );
 };
 

@@ -1,9 +1,12 @@
 import React from 'react';
 import "./Banner.css";
-import banner from "../../assests/banner.jpg"
+import banner from "../../assests/banner.jpg";
+import Fade from 'react-reveal/Fade';
 
 const Banner = () => {
     return (
+        <>
+        <Fade bottom>
         <div className="banner">
             <div className="bannerMain">
                 <div className="bannerMainText">
@@ -32,6 +35,8 @@ const Banner = () => {
                 <h4>Segment</h4>
             </div>
         </div>
+        </Fade>
+        </>
     );
 };
 

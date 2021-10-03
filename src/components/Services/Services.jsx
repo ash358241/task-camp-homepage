@@ -1,8 +1,11 @@
 import React from 'react';
 import "./Services.css";
+import Fade from 'react-reveal/Fade';
 
 const Services = () => {
     return (
+        <>
+        <Fade bottom>
         <div className="services my-5">
             <div className="row d-flex align-items-center container ">
                 <div className="col-md-6 mb-4">
@@ -47,6 +50,8 @@ const Services = () => {
                 </div>
             </div>
         </div>
+        </Fade>
+        </>
     );
 };
 

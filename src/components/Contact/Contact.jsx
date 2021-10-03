@@ -1,9 +1,12 @@
 import React from 'react';
 import "./Contact.css";
+import Fade from 'react-reveal/Fade';
+
 
 const Contact = () => {
     return (
-        <div className="contact">
+        <Fade bottom>
+            <div className="contact">
             <div className="contactForm">
                 <form action="">
                     <p>Name* </p>
@@ -26,6 +29,7 @@ const Contact = () => {
                 <p>+227 300-3676</p>
             </div>
         </div>
+        </Fade>
     );
 };
 

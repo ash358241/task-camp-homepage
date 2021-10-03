@@ -1,10 +1,13 @@
 import React from 'react';
 import './Footer.css';
 import camp from '../../assests/camp.jpg';
+import Fade from 'react-reveal/Fade';
+
 
 const Footer = () => {
     return (
-        <div className="footer">
+        <Fade bottom>
+            <div className="footer">
             <div className="footerContent">
                 <div className="footerUp">
                     <h1>Get update by <span style={{color:'red', borderBottom:"3px solid red"}}>signup</span> <br /> Newsletter</h1>
@@ -59,6 +62,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        </Fade>
     );
 };
 

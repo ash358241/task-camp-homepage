@@ -1,10 +1,12 @@
 import React from 'react';
 import "./CustomerSupport.css";
 import customer from "../../assests/customer.jpg";
+import Fade from 'react-reveal/Fade';
 
 const CustomerSupport = () => {
     return (
-        <div className="customerSupport " style={{margin:"100px 0"}}>
+       <Fade bottom>
+            <div className="customerSupport " style={{margin:"100px 0"}}>
             <div className="customer container">
                 <div className="customerImg">
                     <img  src={customer} alt="" />
@@ -37,6 +39,7 @@ const CustomerSupport = () => {
                 </div>
             </div>
         </div>
+       </Fade>
     );
 };
 

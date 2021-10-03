@@ -1,9 +1,12 @@
 import React from 'react';
 import "./InsideNews.css";
+import Fade from 'react-reveal/Fade';
+
 
 const InsideNews = () => {
     return (
-        <div className="insideNews container">
+        <Fade bottom>
+            <div className="insideNews container">
             <div className="row mx-auto">
                 <div className="col-md-4">
                     <h1>Our <span style={{color:'red', borderBottom:"3px solid red"}}>inside</span> <br /> News</h1>
@@ -85,6 +88,7 @@ const InsideNews = () => {
                 </div>
             </div>
         </div>
+        </Fade>
     );
 };
 

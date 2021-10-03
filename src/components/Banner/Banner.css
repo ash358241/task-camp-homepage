@@ -1,3 +1,7 @@
+.banner{
+    height: 100vh;
+}
+
 .bannerMain{
     display: flex;
     justify-content: space-evenly;

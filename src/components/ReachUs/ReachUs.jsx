@@ -1,9 +1,12 @@
 import React from 'react';
 import "./ReachUs.css";
+import Fade from 'react-reveal/Fade';
+
 
 const ReachUs = () => {
     return (
-        <div className="reachUs container">
+        <Fade bottom>
+            <div className="reachUs container">
             <div className="reachOne mb-2">
             <i class="fas fa-map-marker-alt"></i>
             <br /><br />
@@ -26,6 +29,7 @@ const ReachUs = () => {
                 <a href="/" style={{ color:'black'}}>www.vcamplivesupport.com</a>
             </div>
         </div>
+        </Fade>
     );
 };
 

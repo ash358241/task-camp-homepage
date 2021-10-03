@@ -1,11 +1,14 @@
 import React from 'react';
 import "./Promote.css";
 import developer from "../../assests/developer.jpg";
-import wordpress from "../../assests/wordpress.png"
+import wordpress from "../../assests/wordpress.png";
+import Fade from 'react-reveal/Fade';
+
 
 const Promote = () => {
     return (
-        <div className="promote">
+        <Fade bottom>
+            <div className="promote">
             <div className="thoughts">
             <i class="fab fa-slack-hash fa-2x text-white bg-black p-3 rounded-circle mb-2"></i>
                 <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatum veniam dolor eligendi minus rem enim voluptatem quasi, ipsa voluptas"</p>
@@ -23,6 +26,7 @@ const Promote = () => {
                 <img  src={wordpress} alt="" />
             </div>
         </div>
+        </Fade>
     );
 };
 
