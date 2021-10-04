@@ -24,7 +24,7 @@ const Banner = () => {
                         <img  src={banner} alt="" />
                 </div>
             </div>
-
+            <br /><br />
             <p style={{display:"flex", alignItems: 'center', justifyContent: 'center', marginTop: '50px'}}>Over<span style={{fontWeight:'bold', marginRight: '5px', marginLeft: '5px'}}>32k+</span>software business growing with vCamp.</p>
 
             <div className="bannerCompany">

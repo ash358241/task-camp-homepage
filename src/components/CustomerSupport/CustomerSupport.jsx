@@ -10,6 +10,12 @@ const CustomerSupport = () => {
             <div className="customer container">
                 <div className="customerImg">
                     <img  src={customer} alt="" />
+                    <div className="comment shadow bg-white rounded">
+                        <p>Our partnership with vCamp. Their support help us to solve everything</p>
+                        <div className="commenter">
+                            <h6>Rashed Ka, <span style={{opacity:'0.4'}}>CEO vCamp</span> <i class="fas fa-quote-left ms-3 text-danger"></i></h6>
+                        </div>
+                    </div>
                 </div>
                 <div className="customerContent">
                     <h1>We've been <br /> helping <span style={{color:'red', borderBottom:"3px solid red"}}>customer</span> <br /> globally.</h1>

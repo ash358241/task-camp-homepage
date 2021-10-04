@@ -34,4 +34,10 @@
     .feedbackCards{
         grid-template-columns: repeat(1, 1fr);
     }
+    .say{
+        flex-wrap: wrap;
+    }
+    .feed{
+        flex-wrap: wrap;
+    }
 }

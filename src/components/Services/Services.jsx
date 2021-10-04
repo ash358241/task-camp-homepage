@@ -6,7 +6,7 @@ const Services = () => {
     return (
         <>
         <Fade bottom>
-        <div className="services my-5">
+        <div className="services mb-5">
             <div className="row d-flex align-items-center container ">
                 <div className="col-md-6 mb-4">
                     <p>WHAT WE DO</p>

@@ -19,7 +19,7 @@ const Feedback = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae expedita commodi accusamus aut vel a nostrum quam sunt atque?</p>
                 <div className="feed">
                     <h6>- Martin Jonas <span style={{opacity:'0.4'}}>USA</span></h6>
-                    <h6>icons</h6>
+                    <i class="fas fa-quote-left ms-3 text-white bg-dark p-2 rounded-circle"></i>
                 </div>
                 </div>
 
@@ -27,7 +27,7 @@ const Feedback = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae expedita commodi accusamus aut vel a nostrum quam sunt atque?</p>
                 <div className="feed">
                 <h6>- Martin Jonas <span style={{opacity:'0.4'}}>USA</span></h6>
-                    <h6>icons</h6>
+                <i class="fas fa-quote-left ms-3 text-white bg-dark p-2 rounded-circle"></i>
                 </div>
                 </div>
 
@@ -35,7 +35,7 @@ const Feedback = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus repudiandae expedita commodi accusamus aut vel a nostrum quam sunt atque?</p>
                 <div className="feed">
                 <h6>- Martin Jonas <span style={{opacity:'0.4'}}>USA</span></h6>
-                    <h6>icons</h6>
+                <i class="fas fa-quote-left ms-3 text-white bg-dark p-2 rounded-circle"></i>
                 </div>
                 </div>
             </div>
